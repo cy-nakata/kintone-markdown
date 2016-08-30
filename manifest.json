@@ -1,0 +1,26 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "kintone × Markdown プラグイン",
+        "en": "kintone × Markdown plugin"
+    },
+    "description": {
+        "ja": "kintone で Markdown 記法を利用可能にするプラグインです。",
+        "en": "To make Markdown available for kintone."
+    },
+    "icon": "image/icon.png",
+    "homepage_url": {
+        "ja": "https://github.com/dai0916/kintone-markdown"
+    },
+    "desktop": {
+        "js": [
+            "https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js",
+            "js/markdown.js"
+        ],
+        "css": [
+            "https://cdn.jsdelivr.net/github-markdown-css/2.4.0/github-markdown.css"
+        ]
+    }
+}
